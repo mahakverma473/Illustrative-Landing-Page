@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+    background-color: rgb(250, 205, 184);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background-color: #FACDB8;
+}
+
+a {
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+
+#text {
+    background-color: #FACDB8;
+}
+
+#text>h1 {
+    text-align: center;
+    font-family: "voyage";
+    font-weight: 100%;
+    font-size: 60px;
+}
+
+#text>p {
+    font-size: 12px;
+    width: 30%;
+    margin: 10px auto;
+  
+}
+
+#text button {
+    margin-top: 10px;
+    padding: 12px 32px;
+    background-color: black;
+    color: #fff;
+    border-radius: 100px;
+    border: none;
+}
+
+.div {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(12, 11, 11);
+}
+
+#text p {
+    padding: 13px;
+    font-weight: 350;
+
+}
+
+#img img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#swap {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    padding: 0 40px;
+    color: rgb(0, 0, 0);
+}
+
+#swap-left {
+    text-align: right;
+    width: 50%;
+    padding-right: 30px;
+    padding-left: 40px;
+    border-right: 3px solid rgb(71, 67, 67);
+}
+
+#swap-left h1 {
+    font-family: "voyage";
+    font-size: 55px;
+}
+
+#swap-left p {
+    font-size: 17px;
+    margin: 5px;
+}
+
+
+
+#swap-right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+#r1,
+#r2 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-bottom: 30px;
+}
+
+#r1 #icon,
+#r2 #icon {
+    margin-top: -30px;
+    margin-right: 20px;
+}
+
+
+#nav {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+a {
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+
+#text>h1 {
+    text-align: center;
+    font-family: "voyage";
+    font-weight: 100%;
+    font-size: 60px;
+}
+
+#text>p {
+    font-size: 12px;
+    width: 30%;
+    margin: 10px auto;
+}
+
+#text button {
+    margin-top: 10px;
+    padding: 12px 32px;
+    background-color: black;
+    color: #fff;
+    border-radius: 100px;
+    border: none;
+}
+button a{
+    color: #fff;
+}
+
+.div {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#text p {
+    padding: 13px;
+    font-weight: 350;
+}
+
+#img img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#swap {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    padding: 0 40px;
+    color: rgb(0, 0, 0);
+}
+
+#swap-left {
+    text-align: right;
+    width: 50%;
+    padding-right: 30px;
+    padding-left: 40px;
+    border-right: 3px solid rgb(71, 67, 67);
+}
+
+#swap-left h1 {
+    font-family: "voyage";
+    font-size: 55px;
+}
+
+#swap-left p {
+    font-size: 17px;
+    margin: 5px;
+}
+
+
+
+#swap-right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+#r1,
+#r2 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-bottom: 30px;
+}
+
+#r1 #icon,
+#r2 #icon {
+    margin-top: -30px;
+    margin-right: 20px;
+}
+.button #a{
+    color: #fff;
+}
+
